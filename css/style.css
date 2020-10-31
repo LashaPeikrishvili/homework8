@@ -1,0 +1,18 @@
+.relative{
+	position: relative;
+}
+.bg{
+	width: 1200px;
+	height: 500px;
+	background-color: blue;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	margin-top: 50px;
+	margin-left: 100px;
+	position: absolute;
+}
+img{
+	width: 250px;
+	position: absolute;
+}
