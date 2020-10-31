@@ -15,4 +15,20 @@
 img{
 	width: 250px;
 	position: absolute;
+	transition: all 0.3s ease 0.3s;
+	animation-name: fish;
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fish {
+	from{
+		background-color: pink;
+		top: 50px;
+	}
+	to{
+		background-color: green;
+		top: 250px;
+	}
 }
