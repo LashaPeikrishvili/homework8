@@ -20,15 +20,19 @@ img{
 	animation-duration: 5s;
 	animation-delay: 2s;
 	animation-iteration-count: infinite;
+	animation-fill-mode: backwards;
+	animation-direction: alternate;
 }
 
 @keyframes fish {
 	from{
 		background-color: pink;
 		top: 50px;
+		left: 50px;
 	}
 	to{
 		background-color: green;
 		top: 250px;
+		left: 800px;
 	}
 }
