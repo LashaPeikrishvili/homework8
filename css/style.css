@@ -21,7 +21,7 @@ img{
 	animation-delay: 2s;
 	animation-iteration-count: infinite;
 	animation-fill-mode: backwards;
-	animation-direction: alternate-reverse;
+	animation-direction: reverse;
 	animation-timing-function: linear;
 }
 
@@ -29,6 +29,7 @@ img{
 	0%{
 		top: 50px;
 		left: 50px;
+		transform: rotateY(180deg);
 	}
 	10%{
 		top: 100px;
@@ -49,7 +50,7 @@ img{
 	50%{
 		top: 300px;
 		left: 800px;
-		transform: rotateY(180deg);		
+				
 	}
 	60%{
 		top: 200px;
@@ -69,6 +70,7 @@ img{
 	}
 	100%{		
 		top: 50px;
-		left: 50px;		
+		left: 50px;	
+
 	}		
 }
